@@ -1,4 +1,4 @@
-# React + Vite (THis is assignment for my certificate about developing front-end apps with react )
+# React + Vite (This is assignment for my certificate about developing front-end apps with react )
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
