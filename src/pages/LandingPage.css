@@ -1,0 +1,50 @@
+.landing-page {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&h=1080&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.company-name {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #2d5a27;
+  font-weight: bold;
+}
+
+.company-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background-color: #27ae60;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #219a52;
+  transform: translateY(-2px);
+}
