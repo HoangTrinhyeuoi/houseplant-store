@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { Link } from 'react-router-dom';
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   base: '/houseplant-store/',
@@ -9,10 +9,3 @@ export default defineConfig({
     outDir: 'dist'
   }
 })
-
-// Trong các component có navigation
-// Đúng:
-<Link to="/">Home</Link>
-<Link to="/cart">Cart</Link>
-
-// Không cần thêm /houseplant-store/ vào Link paths
